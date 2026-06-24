@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" <head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="./css/stylesheet.css">
+<title>Galxboy </title>
+
+</head>
+
+<body>
+    <!--Navigation Starts-->
+    <nav>
+        <div class="navbar">
+            <a href="#" class="logo">Galxboy</a>
+
+            <!--Hamburger menu-->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="./index.html">home</a></li>
+
+                <li>
+                    <a href="./products.html" class="submenu-toggle">Products </a>
+                    <ul class="submenu">
+                        <li><a href="#">new arrivals</a></li>
+                        <li><a href="#">tops</a></li>
+                        <li><a href="#">bottoms</a></li>
+                        <li><a href="#">footwear</a></li>
+                    </ul>
+                </li>
+
+
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navigation Ends-->
+
+    <!--Slide show begins-->
+    <div class="slideshow-container carousalmargin">
+        <!--Full-width images with number and caption text-->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./img/new arrivals.jpeg" style="height: 500px; width: 100%">
+            <div class="text">Caption one</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./img/T-Shirts.jpeg" style="height: 500px; width: 100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./img/pants.jpeg" style="height: 500px; width: 100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./img/footwear.jpeg" style="height: 500px; width: 100%">
+            <div class="text">Caption four</div>
+        </div>
+
+        <!--Next and previous buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!--The dots/circles-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+    </div>
+
+    <h2>Responsive "introducing our products" Section</h2>
+    <p>Resize the browser window to see the effect.</p>
+    <br>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./img/sneakers.jpeg" alt="sneakers" style="width:100%">
+                <div class="container">
+                    <h2>012 Trainer</h2>
+                    <p class="title">Black</p>
+                    <p>Crafted from a full grain cow leather that offers durability, structure and a smooth, premuim
+                        finish.</p>
+                    <p>R5000</p>
+                    <p><button class="button">See more</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/braclets.jpeg" alt="braclets" style="width:100%">
+                <div class="container">
+                    <h2>coin bracelet</h2>
+                    <p class="title">white</p>
+                    <p>Made from hypoallergenic, high-quality copper and featuring a striking epoxy resin inlay.</p>
+                    <p>R500</p>
+                    <p><button class="button">See more</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/beanie.jpeg" alt="beanie" style="width:100%">
+                <div class="container">
+                    <h2>Beanie</h2>
+                    <p class="title">Grey</p>
+                    <p>Crafted from 100% premium acrylic, it delivers warmth, softness, and a durability perfect for
+                        year-round wear</p>
+                    <p>R250</p>
+                    <p><button class="button"> see more</button></p </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<footer>
+    <div class="footer logo">
+        <h2>Galxboy</h2>
+        <p> From kasi to the world, where street meets Prestige</p>
+    </div>
+
+    <div class="footer-links">
+        <h3>Quick links</h3>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">Our Stores</a></li>
+            <li><a href="#">Our staff</a></li>
+            <li><a href="#">new products</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-contact">
+        <h3>Contac Us</h3>
+        <p>02 Mosiea Road, Klaarwater</p>
+        <p>+27 87 148 4228</p>
+        <p>support@galxboy.co.za</p>
+    </div>
+    <script src="./javascript/script.js"></script>
+</footer>
